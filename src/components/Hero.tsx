@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroImg from '../assets/hero.png';
 import background from '../assets/heroBg.png';
+import PrimaryButton from './PrimaryButton';
 
 type Props = {}
 
@@ -15,11 +16,16 @@ const Hero = (props: Props) => {
                         {/* text section */}
                         <div className='space-y-7 text-dark order-2 sm:order-1'>
                             <h1 className='text-5xl'>
-                                Fresh & Healthy Meal Plan <span className='text-secondary font-cursive text-7xl'>Delivery</span> in Tel Aviv
+                                Fresh & Healthy Meal Plan{' '} <span className='text-secondary font-cursive text-7xl'>Delivery</span> in Tel Aviv
                             </h1>
-                            <p>
+                            <p className='lg:pr-64 '>
                                 Delicious Meals Delivered to Your Door From 500 ₪ per week
                             </p>
+
+                            {/* button section */}
+                            <div>
+                                <PrimaryButton />
+                            </div>
                         </div>
 
                         {/* Image Section */}
