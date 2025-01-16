@@ -1,8 +1,6 @@
 import { FaArrowRight } from 'react-icons/fa';
 
-type Props = {}
-
-const PrimaryButton = (props: Props) => {
+const PrimaryButton = () => {
     return (
         <>
             <div className='flex items-center group'>
