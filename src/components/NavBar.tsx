@@ -57,14 +57,14 @@ const NavBar = ({ setShowPopup }: Props) => {
                     <ul className='flex items-center gap-10'>
                         {NavLinks.map(({ id, name, link }) => (
                             <li key={id}>
-                                <a href={link} className='inline-block hover:text-primary text-xl font-semibold'>
+                                <a href={link} className='hidden sm:inline-block hover:text-primary text-xl font-semibold'>
                                     {name}
                                 </a>
                             </li>
                         ))}
 
                         {/* simple dropdown and links */}
-                        <li className='cursor-pointer group'>
+                        <li className='hidden md:block cursor-pointer group'>
                             <a href="/#"
                                 className='inline-block hover:text-primary text-xl font-semibold'>
                                 <div className='flex items-center gap-[2px] py-2'>
@@ -97,7 +97,7 @@ const NavBar = ({ setShowPopup }: Props) => {
                         <li>
                             <button
                                 onClick={() => setShowPopup(true)}
-                                className='flex items-center gap-2 bg-secondary rounded-full text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-200'>
+                                className='flex items-center gap-2 bg-secondary rounded-full text-xl h-[40px] text-white px-2 md:px-5 py-2 hover:scale-105 duration-200'>
                                 <FaUser />
                                 My Account
                             </button>
