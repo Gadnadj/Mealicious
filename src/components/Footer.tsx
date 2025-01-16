@@ -20,7 +20,7 @@ const Footer = () => {
                                     <IoLocationSharp className='text-5xl' />
                                 </div>
                                 <p>
-                                    #92, 3rd Main, virgo Nagar, Post <br /> Seegehalli, Bengaluru, Karnataka 560049
+                                    47 Amos, Tel Aviv <br />
                                 </p>
                             </div>
 

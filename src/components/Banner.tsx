@@ -14,7 +14,7 @@ const Banner = () => {
                         data-aos='fade-up'
                         data-aos-delay='300'
                         className='py-8 tracking-wider text-2xl font-semibold text-dark text-center'>
-                        Taste the Healthy Difference
+                        Taste the Fresh Difference
                     </h1>
 
                     <div
@@ -27,10 +27,9 @@ const Banner = () => {
                             className='grid grid-cols-1 sm:grid-cols-2 gap-4 py-10'>
                             <div>
                                 <p className='text-justify'>
-                                    We know that <span className='text-primary'>time</span> is the greatest value in the mordern world.
-                                    Our healthy meal plan delivery service Mealicious in Tel Aviv is the answer
-                                    for those who want to eat healthilym saving time for buying food and preparing
-                                    delicious, healthy meals.
+                                    We understand that <span className='text-primary'>time</span> is one of the most valuable resources in today’s fast-paced world.
+                                    Our healthy meal delivery service, Mealicious, based in Tel Aviv, is here to help you save time while enjoying
+                                    fresh, delicious, and healthy meals. No more grocery shopping or cooking hassle!
                                 </p>
                             </div>
                             <div></div>
@@ -40,10 +39,9 @@ const Banner = () => {
                             <div></div>
                             <div>
                                 <p className='text-justify'>
-                                    We know that <span className='text-primary'>time</span> is the greatest value in the mordern world.
-                                    Our healthy meal plan delivery service Mealicious in Tel Aviv is the answer
-                                    for those who want to eat healthilym saving time for buying food and preparing
-                                    delicious, healthy meals.
+                                    With Mealicious, eating healthy has never been easier.
+                                    Enjoy a variety of nutritious meal plans designed to suit your lifestyle.
+                                    Let us handle the preparation while you focus on what matters most.
                                 </p>
                             </div>
                         </div>
@@ -57,7 +55,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                {/* bg fruits pngs */}
+                {/* Background fruits */}
                 <div
                     data-aos='fade-right'
                     className='absolute top-5 -left-16 sm:bottom-0 sm:left-0 opacity-50 sm:opacity-100'>

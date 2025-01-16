@@ -15,43 +15,48 @@ const bgStyle: React.CSSProperties = {
 const About = () => {
     return (
         <>
-            <div style={bgStyle} className='py-14'>
+            <div style={bgStyle} className="py-14">
                 <div className="container min-h-[500px] relative z-10">
+                    {/* Heading Section */}
                     <h1
-                        data-aos='fade'
-                        className="pt-20 tracking-wider text-4xl font-semiboldtext-white text-center">
+                        data-aos="fade"
+                        className="pt-20 tracking-wider text-4xl font-semibold text-white text-center">
                         About Us
                     </h1>
 
-                    {/* card section */}
+                    {/* Card Section */}
                     <div
-                        data-aos='fade'
-                        data-aos-delay='300'
-                        className='bg-white/80 p-10 my-10 rounded-md'>
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
-                        Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs.
-                        <div className='pt-10 flex justify-center'>
-                            <button className='flex items-center gap-2 bg-primary rounded-full text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-200'>
+                        data-aos="fade"
+                        data-aos-delay="300"
+                        className="bg-white/80 p-10 my-10 rounded-md">
+                        <p className="text-dark/70 text-lg leading-7">
+                            Welcome to our platform! We are dedicated to providing top-notch services
+                            tailored to meet your unique needs. Our team is passionate about delivering
+                            innovative solutions that drive success and create meaningful connections.
+                        </p>
+                        <p className="text-dark/70 text-lg leading-7 mt-4">
+                            With years of experience in the industry, we are committed to excellence,
+                            continuous improvement, and ensuring customer satisfaction. Let us help you
+                            achieve your goals with our expertise and dedication.
+                        </p>
+
+                        {/* Contact Us Button */}
+                        <div className="pt-10 flex justify-center">
+                            <button className="flex items-center gap-2 bg-primary rounded-full text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-200">
                                 <FaUser />
                                 Contact Us
                             </button>
                         </div>
                     </div>
                 </div>
-                {/* wave vector */}
-                <div className='absolute top-0  w-full'>
+
+                {/* Wave Vector */}
+                <div className="absolute top-0 w-full">
                     <img
-                        className='mx-auto'
-                        src={Vector} />
+                        className="mx-auto"
+                        src={Vector}
+                        alt="Wave vector"
+                    />
                 </div>
             </div>
         </>
