@@ -3,7 +3,7 @@ import HeroImg from '../assets/hero.png';
 import HeroBg from '../assets/heroBg.png';
 import PrimaryButton from './PrimaryButton';
 
-const bgStyle = {
+const bgStyle: React.CSSProperties = {
     backgroundImage: `url(${HeroBg})`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
