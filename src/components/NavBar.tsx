@@ -46,7 +46,7 @@ const NavBar = ({ setShowPopup }: Props) => {
 
 
     return (
-        <div className='bg-white'>
+        <div data-aos='fade' className='bg-white'>
             <div className='container flex justify-between py-4 sm:py-3'>
                 {/* Logo Container */}
                 <div className='font-bold text-3xl'>

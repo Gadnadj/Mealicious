@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import Hero from './components/Hero';
@@ -10,6 +12,16 @@ import Popup from './components/Popup';
 function App() {
 
   const [showPopup, setShowPopup] = useState<boolean>(false);
+
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 800,
+      easing: 'ease-in-sine',
+      delay: 100
+    });
+    AOS.refresh();
+  }, []);
 
   return (
     <>
