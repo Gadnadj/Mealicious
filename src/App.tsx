@@ -5,9 +5,14 @@ import Hero from './components/Hero';
 import WhyChoose from './components/WhyChoose';
 import About from './components/About';
 import Footer from './components/Footer';
+import Popup from './components/Popup';
 
 function App() {
-  const [count, setCount] = useState(0);
+
+  const [showPopup, setShowPopup] = useState<boolean>(false);
+  const HandlePopup = (): void => {
+    setShowPopup(true);
+  };
 
   return (
     <>
@@ -18,6 +23,7 @@ function App() {
         <WhyChoose />
         <About />
         <Footer />
+        <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
       </div>
     </>
   );
