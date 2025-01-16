@@ -17,12 +17,17 @@ const About = () => {
         <>
             <div style={bgStyle} className='py-14'>
                 <div className="container min-h-[500px] relative z-10">
-                    <h1 className="pt-20 tracking-wider text-4xl font-semiboldtext-white text-center">
+                    <h1
+                        data-aos='fade'
+                        className="pt-20 tracking-wider text-4xl font-semiboldtext-white text-center">
                         About Us
                     </h1>
 
                     {/* card section */}
-                    <div className='bg-white/80 p-10 my-10 rounded-md'>
+                    <div
+                        data-aos='fade'
+                        data-aos-delay='300'
+                        className='bg-white/80 p-10 my-10 rounded-md'>
                         Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
                         Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs
                         Lorem ipsum dolor sir amet consectetur adisds e;it. fuga dolorisdfs

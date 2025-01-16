@@ -18,7 +18,8 @@ function App() {
       offset: 100,
       duration: 800,
       easing: 'ease-in-sine',
-      delay: 100
+      delay: 100,
+      once: true
     });
     AOS.refresh();
   }, []);
