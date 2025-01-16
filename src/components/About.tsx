@@ -43,9 +43,9 @@ const About = () => {
                     </div>
                 </div>
                 {/* wave vector */}
-                <div>
+                <div className='absolute top-0  w-full'>
                     <img
-                        className='absolute top-0  w-full'
+                        className='mx-auto'
                         src={Vector} />
                 </div>
             </div>
