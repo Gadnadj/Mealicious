@@ -1,9 +1,12 @@
 import React from 'react';
 import { FaCaretDown, FaUser } from 'react-icons/fa';
 
-type Props = {}
+type Props = {
+    setShowPopup: React.Dispatch<React.SetStateAction<boolean>>;
 
-const NavBar = (props: Props) => {
+}
+
+const NavBar = ({ setShowPopup }: Props) => {
 
     const NavLinks = [
         {
@@ -92,7 +95,9 @@ const NavBar = (props: Props) => {
 
                         {/* Login button section */}
                         <li>
-                            <button className='flex items-center gap-2 bg-secondary rounded-full text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-200'>
+                            <button
+                                onClick={() => setShowPopup(true)}
+                                className='flex items-center gap-2 bg-secondary rounded-full text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-200'>
                                 <FaUser />
                                 My Account
                             </button>

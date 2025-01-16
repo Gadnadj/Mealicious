@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <div className='overflow-x-hidden overflow-y-hidden'>
-        <NavBar />
+        <NavBar setShowPopup={setShowPopup} />
         <Hero />
         <Banner />
         <WhyChoose />
