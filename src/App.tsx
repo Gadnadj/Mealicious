@@ -10,9 +10,6 @@ import Popup from './components/Popup';
 function App() {
 
   const [showPopup, setShowPopup] = useState<boolean>(false);
-  const HandlePopup = (): void => {
-    setShowPopup(true);
-  };
 
   return (
     <>
